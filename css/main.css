@@ -15,7 +15,7 @@ nav ul {
 }
 
 .wrapper {
-  backgroun-color: #eee8d5;
+  background-color: #eee8d5;
 }
 
 #contents, #favs, #facts, #types {
@@ -26,11 +26,11 @@ nav ul {
   background-color: #b58900;
 }
 
-[.dfn="Botanically"] + strong {
+p + strong {
   color: #fff;
 }
 
-a:not(.no-highlights) {
+a:not(.no-highlight) {
   background-color: #719e07;
 }
 
@@ -38,22 +38,22 @@ a:not(.no-highlights) {
   background-color: #2694d8;
 }
 
-ol>li:first child {
+ol li:first-child {
   color: #719e47;
 }
 
-ol>li:last child {
+ol li:last-child {
   color: #2aa198;
 }
 
-.types>li:nth-child(odd) {
+.types li:nth-child(odd) {
   background-color: #657ba3;
 }
 
-.types>li:nth-child(even) {
+.types li:nth-child(even) {
   background-color: #586e75;
 }
 
-.types>li:nth-child(3n) {
+.types li:nth-child(3n) {
   background-color: #d04b16;
 }
